@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Outfit:wght@100..900&family=Prata&display=swap');
+
+body{
+    font-family: "Moderustic", sans-serif;
+    background: linear-gradient(to bottom, #06a9dfff 0%, #e4157dff 100%);
+}
+.title1{
+    width:250px;
+    height:350px;
+    border:1px solid black;
+    margin-left:120px;
+    margin-top:70px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-item:center;
+}
+img:hover{
+    margin-top:-10px;
+     transition-duration:0.5s,1s;
+    transition-timing-function:ease-in-out,linear;
+    transition-delay:0s,0.2s;
+}
+h1{
+    text-align:center;
+}
+p{
+    padding:5px
+}
+
+.box1{
+    width:30px;
+    height:20px;
+    border:1px solid black;
+    background-color:red;
+    
+}
+.box2{
+    width:30px;
+    height:20px;
+    border:1px solid black;
+    background-color:green;
+}
+.box3{
+    width:30px;
+    height:20px;
+    border:1px solid black;
+    background-color:yellow;
+}
+
+@media only screen and (max-width:600px){
+    .box1{
+    width:30px;
+    height:20px;
+    border:1px solid black;
+    background-color:red;
+}
+.box2{
+    width:30px;
+    height:20px;
+    border:1px solid black;
+    background-color:green;
+}
+.box3{
+    width:30px;
+    height:20px;
+    border:1px solid black;
+    background-color:yellow;
+}
+@media only screen and (max-width:768px){
+    .box1{
+    width:40px;
+    height:30px;
+    border:1px solid black;
+    background-color:red;
+}
+.box2{
+    width:40px;
+    height:30px;
+    border:1px solid black;
+    background-color:green;
+}
+.box3{
+    width:40px;
+    height:30px;
+    border:1px solid black;
+    background-color:yellow;
+}
+@media only screen and (min-width:992px){
+    .box1{
+    width:160px;
+    height:40px;
+    border:1px solid black;
+    background-color:red;
+}
+.box2{
+    width:160px;
+    height:40px;
+    border:1px solid black;
+    background-color:green;
+}
+.box3{
+    width:160px;
+    height:60px;
+    border:1px solid black;
+    background-color:yellow;
+}
+@media only screen and (min-width:1200px){
+    .box1{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    background-color:red;
+}
+.box2{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    background-color:green;
+}
+.box3{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    background-color:yellow;
+
+
+.terms{
+   
+    text-align:center;
+    
+
+}
+
+

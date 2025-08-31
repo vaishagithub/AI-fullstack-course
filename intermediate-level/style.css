@@ -1,0 +1,53 @@
+div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-item:center;
+
+}
+.box1{
+    margin-top:30px;
+    width:50px;
+    height:50px;
+    background-color:red;
+    color:white;
+}
+.box2{
+     margin-top:30px;
+    width:50px;
+    height:50px;
+    background-color:black;
+    color:white;
+}
+
+ p:nth-child(2){
+    color:red;
+}
+.card-layout{
+  
+   width:350px;
+   height:450px;
+   border:1px solid black;
+
+
+}
+
+@media only screen and (max-width:600px){
+    div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+   }
+}
+@media only screen and (min-width:768px){
+   div{
+    display:flex;
+    flex-direction:row;
+    justify-content:spaced-evenly;
+    align-items:center;
+   }
+}
+
+
+
