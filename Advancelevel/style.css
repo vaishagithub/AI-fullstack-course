@@ -1,0 +1,35 @@
+.grid1{
+    display:grid;
+   grid-template-columns: 10px 10px 100px;
+  grid-template-rows: 50px 50px 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+  grid-gap:60px;
+  
+
+}
+.grid1 > div{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    background-color:green;
+    text-align:center;
+    padding-top:20px;
+}
+@media only screen and (max-width: 600px){
+.grid1{
+    display:grid;
+    grid-template-columns: 10px  ;
+    grid-template-rows: 20px  ; 
+    row-gap: 5px;
+    grid-gap:20px;
+  }
+  .grid1 > div{
+    width:20px;
+    height:20px;
+    border:1px solid black;
+    background-color:green;
+    text-align:center;
+    padding-top:10px;
+}
+}

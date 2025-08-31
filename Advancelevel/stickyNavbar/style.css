@@ -1,0 +1,12 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   position:sticky;
+   top:0;
+   margin-top:120px;
+   background-color:pink;
+   padding:30px;
+   
+
+}
