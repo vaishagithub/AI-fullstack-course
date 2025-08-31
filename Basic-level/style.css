@@ -1,0 +1,46 @@
+body{
+    background-color:lightblue;
+}
+h1{
+    font-size:30px;
+    color:Brown;
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+button{
+    text-align:center;
+    padding:10px;
+    margin:20px 20px 20px 540px;
+    border-radius:10px;
+    border:1px solid black;
+    box-Shadow:3px 3px 5px 6px #ccc;
+
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
+h2{
+    text-align:center;
+}
+ul{
+    list-style-type:Circle;
+}
+.text1{
+    text-align:center;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:hotpink;
+
+}
+a:active{
+    color:blue;
+}
